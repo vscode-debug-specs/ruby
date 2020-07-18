@@ -1,9 +1,3 @@
----
-layout: default
-title: How to Debug Ruby with VSCode
-permalink: /
----
-
 # Ruby
 
 ## Summary
