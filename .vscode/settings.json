@@ -1,0 +1,5 @@
+{
+  // "rubyTestExplorer.testFramework": "rspec",
+  // "rubyTestExplorer.rspecCommand": "bundle exec rspec",
+  // "rubyTestExplorer.filePattern": ["*_test.rb", "test_*.rb", "*_spec.rb"]
+}

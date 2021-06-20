@@ -71,8 +71,8 @@ If you use Ubuntu 18.04, it needs `sudo apt install libruby ruby-dev`.
       "name": "Debug test/unit",
       "type": "Ruby",
       "request": "launch",
-      "cwd": "${workspaceRoot}",
-      "program": "${workspaceRoot}/test_bubble_sort.rb",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/test_bubble_sort.rb",
       "args": ["--name=test_bubble_sort"]
     }
   ]
@@ -95,8 +95,8 @@ If you use Ubuntu 18.04, it needs `sudo apt install libruby ruby-dev`.
       "name": "Debug execute File",
       "type": "Ruby",
       "request": "launch",
-      "cwd": "${workspaceRoot}",
-      "program": "${workspaceRoot}/bin.rb"
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/bin.rb"
     }
   ]
 }
@@ -114,7 +114,7 @@ If you use Ubuntu 18.04, it needs `sudo apt install libruby ruby-dev`.
       "name": "Debug remote",
       "type": "Ruby",
       "request": "attach",
-      "cwd": "${workspaceRoot}",
+      "cwd": "${workspaceFolder}",
       "remoteHost": "192.168.1.24",
       "remotePort": "1234",
       "remoteWorkspaceRoot": "/home/nnyn/vscode-debug-specs/ruby"
